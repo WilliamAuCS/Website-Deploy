@@ -1,0 +1,34 @@
+.navbar-brand {
+    color: #aaa;
+    left: 150px;
+    margin-left: 100px;
+}
+
+a {
+    color: #aaa;
+    font-weight: 200;
+}
+
+.navbar {
+    background-color: #333;
+    display: block;
+    width: auto;
+    height: 60px;
+}
+.navContainer {
+    display: block;
+    width: auto;
+    height: auto;
+    text-align: center;
+    float: right;
+}
+.nav-link {
+    display: inline-block;
+    padding-right: 5px;
+}
+@media screen and (max-width: 480px)
+{
+    .navbar-brand {
+        display: none;
+    }
+}

@@ -1,0 +1,42 @@
+.sidebar {
+    margin-left: 140px;
+    display: block;
+    width: 250px;
+    float: left;
+    overflow: hidden;
+}
+.pic {
+    background-image: url(..\images\portrait.png);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: center;
+    width: 200px;
+    height: 280px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    position: static;
+    margin-left: 10px;
+}
+@media screen and (max-width: 780px)
+{
+    .sidebar {
+        float: center;
+        margin-left: 15%;
+    }
+    .info {
+        display: none;
+    }
+}
+.info {
+    text-align: center;
+    width: 220px;
+    color: white;
+    position: relative;
+    top: 0px;
+    border: 2px solid black;
+    padding: 5px;
+}
+.degrees {
+    text-align: left;
+}

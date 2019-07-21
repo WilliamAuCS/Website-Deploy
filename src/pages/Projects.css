@@ -1,0 +1,49 @@
+.container {
+    max-width: 60%;
+    padding-right: 10px;
+    padding-left: 10px;
+    position: static;
+    color: white;
+    left: 10px;
+    top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float: center;
+}
+.overview {
+    text-align: left;
+    float: left;
+    padding: 10px;
+    display: block;
+    text-align: justify;
+}
+#picPadding {
+    margin-right: 30px;
+}
+.projectList {
+    max-width: auto;
+    height: auto;
+}
+.projectFormat {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: thin transparent solid;
+    overflow: auto;
+    text-align: justify;
+}
+.projectSideBar {
+    border: 2px solid green;
+    height: 800px;
+    width: 200px;
+    color: white;
+    text-align: center;
+    padding-right: 210px;
+    float: left;
+}
+@media screen and (max-width: 780px)
+{
+    .projectCushBar {
+        display: none;
+    }
+}

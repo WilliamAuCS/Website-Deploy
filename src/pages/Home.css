@@ -1,0 +1,40 @@
+.bio {
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    position: static;
+    color: white;
+    top: 0px;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 0px;
+}
+.background {
+    background-image: url("../images/portfolio background.jpg");
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    margin-top: 0px;
+    z-index: -10;
+}
+.otherStuff {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding-bottom: 60px;
+    margin-top: 0px;
+    float: center;
+}
+@media screen and (max-width: 780px)
+{
+    .bio {
+        display: inline-block;
+    }
+}

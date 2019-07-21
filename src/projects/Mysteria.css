@@ -1,0 +1,20 @@
+.projectContent {
+    height: auto;
+    width: auto;
+    overflow: hidden;
+}
+.leftPics {
+    height: auto;
+    width: 300px;
+    float: left;
+    overflow: hidden;
+}
+.rightPics {
+    height: auto;
+    width: 300px;
+    float: right;
+    overflow: hidden;
+}
+#picFormat {
+    margin-bottom: 50px;
+}

@@ -1,25 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
+import { HashRouter as Router, Route } from 'react-router-dom';
 import './App.css';
+
+
+import Home from './pages/Home.jsx';
+import Projects from './pages/Projects.jsx';
+import Contact from './pages/Contact.jsx';
+import Mysteria from './projects/Mysteria.jsx';
+import CubeRunner from './projects/CubeRunner.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Route exact path="/" component={Home}/>
+        <Route path="/Projects" component={Projects}/>
+        <Route path="/Contact" component={Contact}/>
+        <Route path="/Mysteria" component={Mysteria}/>
+        <Route path="/Cuberunner" component={CubeRunner}/>
+      </div>
+
+    </Router>
   );
 }
 
