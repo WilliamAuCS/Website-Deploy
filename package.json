@@ -1,7 +1,7 @@
 {
   "name": "mywebsite",
   "version": "0.1.0",
-  "homepage": "https://williamaucs.github.io/Website-Deploy/",
+  "homepage": "https://williamaucs.com",
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
