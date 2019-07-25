@@ -1,5 +1,5 @@
 .container {
-    max-width: 60%;
+    max-width: 50%;
     padding-right: 10px;
     padding-left: 10px;
     position: static;
@@ -31,15 +31,6 @@
     border: thin transparent solid;
     overflow: auto;
     text-align: justify;
-}
-.projectSideBar {
-    border: 2px solid green;
-    height: 800px;
-    width: 200px;
-    color: white;
-    text-align: center;
-    padding-right: 210px;
-    float: left;
 }
 @media screen and (max-width: 780px)
 {

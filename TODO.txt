@@ -1,0 +1,23 @@
+All:
+Change header font
+
+Home:
+Complete Bio
+Style profile picture with % instead of px. 
+Change profile picture
+
+Projects:
+Add Cube Runner onto github and add link
+
+Contact: 
+Review
+
+Mysteria:
+Review
+
+Cube Runner: 
+Review
+Add link to Mysteria at the end?
+
+My Website
+Add content

@@ -1,3 +1,3 @@
-Created by William Au using Node.js by Facebook
+Created by William Au using React.js by Facebook
 
 This website is created to display my information and achievements. 
