@@ -28,7 +28,7 @@ class Home extends Component {
                                 Programming is a fun pastime and also a great way to make a difference.
                             <br /> <br />
                                 In addition to programming and building computers, I also enjoy playing nearly all sports, including 
-                                baseball, backetball, and football, as well as keeping in shape by running and going to the gym. 
+                                baseball, basketball, and football, as well as keeping in shape by running and going to the gym. 
                             <br /><br />
                                 <p>
                                     <a href="https://drive.google.com/file/d/1bYqF-I3wZi9ycUjLimC4D0XOCGQmS-fd/view?usp=sharing" target="_blank"> My Resume </a>
