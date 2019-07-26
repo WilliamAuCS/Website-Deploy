@@ -31,7 +31,7 @@ class Home extends Component {
                                 baseball, basketball, and football, as well as keeping in shape by running and going to the gym. 
                             <br /><br />
                                 <p>
-                                    <a href="https://drive.google.com/file/d/1bYqF-I3wZi9ycUjLimC4D0XOCGQmS-fd/view?usp=sharing" target="_blank"> My Resume </a>
+                                    <a href="https://drive.google.com/file/d/1BzR8fSG-9awT-UPoiFOOoLigw9uJxRhh/view?usp=sharing" target="_blank"> My Resume </a>
                                 </p>
                             </p>
                     </div>
