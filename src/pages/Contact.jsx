@@ -23,7 +23,7 @@ class Contact extends Component {
                             <br />
                             Phone: (909) 362-3303
                             <br />
-                            Linked-In: https://www.linkedin.com/in/william-au-964ab616b/
+                            LinkedIn: https://www.linkedin.com/in/william-au-964ab616b/
                             <a href="https://www.linkedin.com/in/william-au-964ab616b/" target="_blank"> Link </a>
                             <br />
                             GitHub: https://github.com/WilliamAuCS
