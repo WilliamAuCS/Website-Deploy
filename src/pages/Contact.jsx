@@ -17,7 +17,7 @@ class Contact extends Component {
                             title="Picture of myself" align="right" />
                         <h2>Contact</h2>
                         <p>
-                            Feel free to contact me if you have any questions. Thanks!
+                            Thanks for taking a look at my portfolio! <br />Feel free to contact me if you have any questions. Thanks!
                             <br /><br /><br />
                             Email: WilliamAuCS@Gmail.com
                             <br />

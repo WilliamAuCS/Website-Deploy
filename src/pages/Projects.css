@@ -10,6 +10,7 @@
     margin-right: auto;
     display: block;
     float: center;
+    margin-bottom: 50px;
 }
 .overview {
     text-align: left;
@@ -32,9 +33,6 @@
     overflow: auto;
     text-align: justify;
 }
-@media screen and (max-width: 780px)
-{
-    .projectCushBar {
-        display: none;
-    }
+.discription {
+    overflow: auto;
 }

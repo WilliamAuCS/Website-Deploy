@@ -29,7 +29,7 @@ class CubeRunner extends Component {
                             <h2>Background</h2>
 
                             Cube Runner was my very first game created using the Unity engine. I used this project as a 'test' to learn the 
-                            basics and capabilities of this engine, and see what larger games I could make with it in the future. 
+                            basics and capabilities of this engine, and see what larger games I could make in the future. 
                             <br /><br />
                             When I opened Unity for the first time, I was lost. I did not know where to start or even what the engine was 
                             capable of. I watched multiple YouTube tutorial videos, as well as dozens of StackOverflow posts to familiarize
@@ -37,7 +37,7 @@ class CubeRunner extends Component {
                             <br /><br />
                             <h2>Development</h2>
 
-                            Cube Runner, being my first project created using Unity, was extremly beneficial in learning how the engine worked. 
+                            Cube Runner was extremly beneficial in learning how the engine worked. 
                             It allowed me to become familiar with physics, such as RigidBody3D and surface friction. I have used these multiple
                             times in the future for larger projects, such as in Mysteria. Creating this game also allowed me to learn the basics
                             of UI creation, such as creating simple Menu screens and even an Options menu, allowing the payer to configure the system

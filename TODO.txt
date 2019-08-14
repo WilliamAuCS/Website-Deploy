@@ -2,12 +2,11 @@ All:
 Change header font
 
 Home:
-Complete Bio
-Style profile picture with % instead of px. 
-Change profile picture
+Review
 
 Projects:
 Add Cube Runner onto github and add link
+Add more projects. 
 
 Contact: 
 Review

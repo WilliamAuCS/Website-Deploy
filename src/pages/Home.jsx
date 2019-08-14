@@ -24,11 +24,11 @@ class Home extends Component {
                                 and frameworks at our desposal, we are able to create what people 20 years ago thought to be impossible.
                             <br /><br />
                                 My name William Au and I am a senior in Computer Science. I picked this major because of my love for mathematics 
-                                and science. I enjoy solving problems analytically and in the most efficient way possible. 
+                                and technology. I enjoy solving problems analytically and in the most efficient way possible. 
                                 Programming is a fun pastime and also a great way to make a difference.
                             <br /> <br />
                                 In addition to programming and building computers, I also enjoy playing nearly all sports, including 
-                                baseball, basketball, and football, as well as keeping in shape by running and going to the gym. 
+                                baseball, backetball, and football, as well as keeping in shape by running and going to the gym. 
                             <br /><br />
                                 <p>
                                     <a href="https://drive.google.com/file/d/1BzR8fSG-9awT-UPoiFOOoLigw9uJxRhh/view?usp=sharing" target="_blank"> My Resume </a>
