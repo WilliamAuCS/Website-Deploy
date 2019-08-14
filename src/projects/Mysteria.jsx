@@ -30,19 +30,19 @@ class Mysteria extends Component {
 
                             I have always been a big fan of games allowing you to gain experience, level
                             up, and forge your path based on your decisions. The challenge of visioning myself as the
-                            character and making choices portrays a lifelise senario many players find enjoyable. The main structure
-                            of this game is based on the player solving major quests, along with various optional sidequests that although not
+                            character and making choices portrays a lifelike senario many players find enjoyable. The main structure
+                            of this game is based on the player solving major quests, along with various optional side-quests that although not
                             mandatory, may provide an advantage to completing the main storyline.
                             <br /><br />
                             <h2>Development</h2>
 
-                            Mysteria was created using the Unity game development engine. I considered using other engines, such as Unreal,
+                            Mysteria was created using the Unity game development engine. I considered using other engines, such as Unreal or GameMaker,
                             however many friends and professors recomended starting off with this engine, so I decided to use Unity. This knowledge
                             helped me greatly the following semester being apart of the Game Development Club on campus, where they primarly use Unity.
                             I was able to teach multiple members how to create their own games, and develop in groups. 
                             <br /><br />
                             To write the scripts, I used C# within Visual Studios. I decided to use this language because, although
-                            it was my first time learning it, I am very fond of the similar language, C++, and wanted to experience a
+                            it was my first time learning it, I am very fond of C++, and wanted to experience a
                             new language. 
                             <br /><br />
                             Mysteria needed a pathing algorithm for enemies as well as friendly NPC's to follow the player, so I decided to

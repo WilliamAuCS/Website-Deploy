@@ -9,31 +9,31 @@ class Projects extends Component {
     render() {
         return (
             <div>
-                <div className="background"/>
+                <div className="background" />
                 <div className="otherStuff">
                     <Navbar />
                     <Jumbotron title="My Projects" subtitle="Project Spotlight" />
                     <div className="container">
                         <p className="overview">
                             <h1>Projects</h1>
-                            The projects listed below are a few of my favorite projects I have completed, or are still in progress. Many are projects completed
-                            in a team of two or more programmers, however there are also many I have completed myself. Below each project is a brief
-                            description, including a screenshot of the actual project. If you wish to learn more, you may click on the project
-                                name and a more in-depth explanation will be displayed. <br />
+                            Listed below are a few of my favorite projects. Below each project is a brief
+                            description, with a corresponding image. If you wish to learn more, you may click on the project
+                            name for a more in-depth explanation. <br />
                             (If you are not redirected, the page is still in progress and will be up soon!)
                             </p>
                         <div className="projectList">
 
                             <div className="projectFormat">
-                                <img id="picPadding" src={require('../images/Mysteria1.PNG')} height="200" width="200" alt="Mysteria"
-                                    title="Picture of my in progress Mysteria RPG game" align="left" />
+                                <img id="picPadding" src={require('../images/react-logo.png')} height="200" width="200" alt="My Website"
+                                    title="I used the JavaScript library React to complete this website" align="left" />
                                 <p className="discription">
-                                    <Link to="/Mysteria"><h2>Mysteria</h2></Link>
+                                    <Link><h2>This Website</h2></Link>
 
-                                    This project was my first major game created using the Unity Engine. This game is an RPG style, tile based game
-                                    allowing the player to make decisions that will help progress the storyline, as well as make NPC friends.
+                                    This is the website you are currently looking at. I created this website using the JavaScript React library. Creating
+                                    this website was a challenge at first, as it was my first time experiencing front-end of development, however the
+                                    concept quickly became familiar. This website will continue to be in development as I learn more about the React library.
                                     <br /><br />
-                                    <a href="https://github.com/WilliamAuCS/Mysteria" target="_blank"> GitHub </a>
+                                    <a href="https://github.com/WilliamAuCS/Website-Deploy" target="_blank"> GitHub </a>
                                 </p>
                             </div>
 
@@ -44,8 +44,7 @@ class Projects extends Component {
                                     <Link><h2>MySQL Database</h2></Link>
 
                                     This project was completed for my 332 Database course. It was my first time creating a database, and really sparked
-                                    my interest in the field. I was in a team with two other students, and it soon became one of
-                                    the most fun I've had completing a project. 
+                                    my interest in the field. I was in a team with two other students, completing the project in under two weeks.
                                     <br /><br />
                                 </p>
                             </div>
@@ -56,9 +55,9 @@ class Projects extends Component {
                                 <p className="discription">
                                     <Link><h2>Discord Bot <h6>(In Progress)</h6></h2></Link>
 
-                                    After completing my Database and React Website projects, I decided to combine the two into a new project. I am using Discord.js and
-                                    SQL to create a Discord bot that not only responds to commands, but also implements its own game and currency for users. This 
-                                    information is stored and retreved in the SQL database. 
+                                    After completing my Website and Database projects, I decided to combine the two into a new project. I am using Discord.js and
+                                    SQL to create a Discord bot that not only responds to commands, but also implements its own game and currency for users. This
+                                    information is stored and retrieved in the SQL database.
                                     <br /><br />
                                 </p>
                             </div>
@@ -75,17 +74,15 @@ class Projects extends Component {
                             </div>
 
                             <div className="projectFormat">
-                                <img id="picPadding" src={require('../images/react-logo.png')} height="200" width="200" alt="My Website"
-                                    title="I used the JavaScript library React to complete this website" align="left" />
+                                <img id="picPadding" src={require('../images/Mysteria1.PNG')} height="200" width="200" alt="Mysteria"
+                                    title="Picture of my in progress Mysteria RPG game" align="left" />
                                 <p className="discription">
-                                    <Link><h2>This Website</h2></Link>
+                                    <Link to="/Mysteria"><h2>Mysteria</h2></Link>
 
-                                    This is the website you are currently looking at. I created this website using the JavaScript React library. Creating
-                                    this website was a challenge at first, for it was the first time experience the front-end of programming, however the
-                                    concept quickly became familiar. This website will continue to be in development as I learn more about the React library.
+                                    This project was my first major game created using the Unity Engine. This game is an RPG style, tile based game
+                                    allowing the player to make decisions that will help progress the storyline, as well as make NPC friends.
                                     <br /><br />
-                                    <a href="https://github.com/WilliamAuCS/WilliamAu-Website" target="_blank"> GitHub (Pre-Deploy)</a><br />
-                                    <a href="https://github.com/WilliamAuCS/Website-Deploy" target="_blank"> GitHub (Deployed)</a>
+                                    <a href="https://github.com/WilliamAuCS/Mysteria" target="_blank"> GitHub </a>
                                 </p>
                             </div>
 

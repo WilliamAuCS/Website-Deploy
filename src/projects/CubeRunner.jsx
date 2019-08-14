@@ -31,8 +31,7 @@ class CubeRunner extends Component {
                             Cube Runner was my very first game created using the Unity engine. I used this project as a 'test' to learn the 
                             basics and capabilities of this engine, and see what larger games I could make in the future. 
                             <br /><br />
-                            When I opened Unity for the first time, I was lost. I did not know where to start or even what the engine was 
-                            capable of. I watched multiple YouTube tutorial videos, as well as dozens of StackOverflow posts to familiarize
+                            I watched multiple YouTube tutorial videos, as well as dozens of StackOverflow posts to familiarize
                             myself with the engine. After understanding the basics of the program, I started my 'test' project, Cube Runner. 
                             <br /><br />
                             <h2>Development</h2>
@@ -46,13 +45,13 @@ class CubeRunner extends Component {
                             Cube Runner consists of a 3 dimentional block accelerating at a constant rate, requiring the player to position the block 
                             left or right to avoid hitting the walls. I used Unity events to register collisions, having the player restart the level from
                             the beginning. The player is also able to see their progress within the level by looking at the incrimenting distance traveled 
-                            counter at the top of the screen. If the player reaches the end, the "Level Complete" UI will show, and the player will be 
+                            counter at the top of the screen. When the player reaches the end, the "Level Complete" UI will show, and the player will be 
                             redirected to the next level. 
                             <br /><br />
                             Major scrips were not nessessary in the creation of this game. The only scripts needed were in C#, including
                             player movement, player automatic acceleration (allowing the block to move without player control), collisions to 
-                            restart or end the level, and when to display the UI. Although this game may seem symplistic, it was essential to 
-                            beginning my path in game development and the creation of larger games, such as Mysteria. 
+                            restart or end the level, and when to display the UI. Although this game may now seem simplistic, it was essential to 
+                            my path in game development and the creation of larger games, such as Mysteria. 
                             <br /><br />
                         </p>
                     </div>
