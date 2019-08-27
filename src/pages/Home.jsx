@@ -20,11 +20,11 @@ class Home extends Component {
                                 <br />
                                 It is a great time.
                             <br /><br />
-                                With technology at its peak, great developers are on the rise. With multiple programming languages, libraries, 
+                                With technology at its peak, great developers are on the rise. Having multiple programming languages, libraries, 
                                 and frameworks at our desposal, we are able to create what people 20 years ago thought to be impossible.
                             <br /><br />
-                                My name William Au and I am a senior in Computer Science. I picked this major because of my love for mathematics 
-                                and technology. I enjoy solving problems analytically and in the most efficient way possible. 
+                                My name William Au and I am a senior in Computer Science. My passion for mathematics and technology lead me to my
+                                interest in computer science. I enjoy solving problems analytically and in the most efficient way possible. 
                                 Programming is a fun pastime and also a great way to make a difference.
                             <br /> <br />
                                 In addition to programming and building computers, I also enjoy playing nearly all sports, including 
