@@ -13,7 +13,7 @@ class Contact extends Component {
                     <Navbar />
                     <Jumbotron title="Contact" subtitle="Feel free to contact me!" />
                     <div className="contactContainer">
-                        <img id="picPadding" src={require('../images/meAtPC.jpg')} height="300" width="220" alt="Me"
+                        <img id="picPadding" src={require('../images/contactPic.jpg')} height="328" width="240" alt="Me"
                             title="Picture of myself" align="right" />
                         <h2>Contact</h2>
                         <p>
