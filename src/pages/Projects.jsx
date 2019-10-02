@@ -86,6 +86,34 @@ class Projects extends Component {
                                 </p>
                             </div>
 
+                            <div className="projectFormat">
+                                <img id="picPadding" src={require('../images/Pong.PNG')} height="200" width="200" alt="Pong"
+                                    title="Picture of my Pong game" align="left" />
+                                <p className="discription">
+                                    <Link><h2>Pong</h2></Link>
+
+                                    Pong was my first game created using Python. The game comes integrated with sounds, collisions, and a fully functioning
+                                    scoreboard with its own unique win/loss sounds. Unlike classic Pong, this game has no walls, forcing players to pay 
+                                    attention to vertical dynamics as well.
+                                    <br /><br />
+                                    <a href="https://github.com/WilliamAuCS/Pong" target="_blank"> GitHub </a>
+                                </p>
+                            </div>
+
+                            <div className="projectFormat">
+                                <img id="picPadding" src={require('../images/Alien Invasion.PNG')} height="200" width="200" alt="Pong"
+                                    title="Picture of my Pong game" align="left" />
+                                <p className="discription">
+                                    <Link><h2>Alien Invasion</h2></Link>
+
+                                    Alien Invasion, similar to my Pong game was created using Python. Many online resources were utilized in the creation of this game, 
+                                    allowing me to grasp new and more intermediate concepts. This game is more complicated, having multiple moving AI's constantly 
+                                    moving to defeat the player, as well as a fully functioning scoreboard.
+                                    <br /><br />
+                                    <a href="https://github.com/WilliamAuCS/Alien-Invasion" target="_blank"> GitHub </a>
+                                </p>
+                            </div>
+
                         </div>
                     </div>
                     <Footer />
