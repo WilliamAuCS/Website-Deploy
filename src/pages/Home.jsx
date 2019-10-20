@@ -23,7 +23,7 @@ class Home extends Component {
                                 With technology at its peak, great developers are on the rise. Having multiple programming languages, libraries, 
                                 and frameworks at our desposal, we are able to create what people 20 years ago thought to be impossible.
                             <br /><br />
-                                My name William Au and I am a senior in Computer Science. My passion for mathematics and technology lead me to my
+                                My name is William Au and I am a senior in Computer Science. My passion for mathematics and technology led me to my
                                 interest in computer science. I enjoy solving problems analytically and in the most efficient way possible. 
                                 Programming is a fun pastime and also a great way to make a difference.
                             <br /> <br />
