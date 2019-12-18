@@ -41,7 +41,7 @@ class Projects extends Component {
                                 <img id="picPadding" src={require('../images/mysql logo.png')} height="200" width="200" alt="mySQL logo"
                                     title="My first database project" align="left" />
                                 <p className="discription">
-                                    <Link><h2>MySQL Database</h2></Link>
+                                    <Link><h2>SQL Database</h2></Link>
 
                                     This project was completed for my 332 Database course. It was my first time creating a database, and really sparked
                                     my interest in the field. I was in a team with two other students, completing the project in under two weeks.
