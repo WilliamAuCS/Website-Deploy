@@ -32,6 +32,7 @@ class Projects extends Component {
                                     This is the website you are currently looking at. I created this website using the JavaScript React library. Creating
                                     this website was a challenge at first, as it was my first time experiencing front-end of development, however the
                                     concept quickly became familiar. This website will continue to be in development as I learn more about the React library.
+                                    This website is currently being hosted using AWS S3. 
                                     <br /><br />
                                     <a href="https://github.com/WilliamAuCS/Website-Deploy" target="_blank"> GitHub </a>
                                 </p>

@@ -6,7 +6,7 @@
     overflow: hidden;
 }
 .pic {
-    background-image: url(..\images\portrait.png);
+    background-image: url(../images/portrait.png);
     background-repeat: no-repeat;
     background-size: 120%;
     background-position: center;
