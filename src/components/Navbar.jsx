@@ -12,6 +12,7 @@ class Navbar extends Component {
                     <p className="nav-item">
                         <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
                         <Link className="nav-link" to="/Projects">Projects</Link>
+                        <Link className="nav-link" to="/Sandbox">Sandbox</Link>
                         <Link className="nav-link" to="/Contact">Contact</Link>
                     </p>
                 </div>
