@@ -4,13 +4,34 @@ import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.jsx';
 import Jumbotron from '../components/Jumbotron.jsx';
 import './Sandbox.css';
+import { Button } from '../projects/Sandbox/Calculator/Button';
+import { Input } from '../projects/Sandbox/Calculator/Input';
+import { ClearButton } from '../projects/Sandbox/Calculator/ClearButton';
+import * as math from 'mathjs';
 
 
-class Sandbox extends Component{
+class Sandbox extends Component {
 
-    render(){
-        
-        return(
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            input: ""
+        }
+    }
+
+    addToInput = val => {
+        this.setState({input: this.state.input + val});
+    }
+
+    // Using mathjs
+    handleEqual = () => {
+        this.setState({input: math.evaluate(this.state.input)})
+    }
+
+    render() {
+
+        return (
             <div>
                 <div className="background" />
                 <div className="otherStuff">
@@ -20,46 +41,58 @@ class Sandbox extends Component{
                         <p>
                             <h1>Sandbox</h1>
                             <p>
-                                Below is my test environment for ideas I might have. These projects
-                                may not be complete and are still in development. If any projects are
-                                complete, I will label them clearly and you are free to test them!
+                                Below is my test environment for ideas I may have. These projects
+                                may not be complete and are still in development. <br />
+                                Feel free to test them!
                             </p>
                         </p>
                     </div>
                     
-                    <div class="calculator">
-                        <input type="text" class="calculator-screen" value="" disabled/>
-                        <div class="calculator-keys">
-                            <button type="button" class="operator" value="+">+</button>
-                            <button type="button" class="operator" value="-">-</button>
-                            <button type="button" class="operator" value="*">&times;</button>
-                            <button type="button" class="operator" value="/">&divide;</button>
-
-                            <button type="button" value="7">7</button>
-                            <button type="button" value="8">8</button>
-                            <button type="button" value="9">9</button>
-
-                            <button type="button" value="4">4</button>
-                            <button type="button" value="5">5</button>
-                            <button type="button" value="6">6</button>
-
-                            <button type="button" value="1">1</button>
-                            <button type="button" value="2">2</button>
-                            <button type="button" value="3">3</button>
-
-                            <button type="button" value="0">0</button>
-                            <button type="button" class="decimal" value=".">.</button>
-                            <button type="button" class="all-clear" value="cll-clear">AC</button>
-
-                            <button type="button" class="equal-sign" value="=">=</button>
-
-
+                    <div className="calculator">
+                        <div className="calc-header">
+                            <h2>
+                                Calculator
+                            </h2>
+                        </div>
+                        {/* Followed guidlines from Brice Ayres */}
+                        <div className="calc-wrapper">
+                            <Input input={this.state.input}/>
+                            <div className="button-row">
+                                <Button handleClick={this.addToInput}>7</Button>
+                                <Button handleClick={this.addToInput}>8</Button>
+                                <Button handleClick={this.addToInput}>9</Button>
+                                <Button handleClick={this.addToInput}>/</Button>
+                            </div>
+                            <div className="button-row">
+                                <Button handleClick={this.addToInput}>4</Button>
+                                <Button handleClick={this.addToInput}>5</Button>
+                                <Button handleClick={this.addToInput}>6</Button>
+                                <Button handleClick={this.addToInput}>*</Button>
+                            </div>
+                            <div className="button-row">
+                                <Button handleClick={this.addToInput}>1</Button>
+                                <Button handleClick={this.addToInput}>2</Button>
+                                <Button handleClick={this.addToInput}>3</Button>
+                                <Button handleClick={this.addToInput}>+</Button>
+                            </div>
+                            <div className="button-row">
+                                <Button handleClick={this.addToInput}>.</Button>
+                                <Button handleClick={this.addToInput}>0</Button>
+                                <Button handleClick={() => this.handleEqual()}>=</Button>
+                                <Button handleClick={this.addToInput}>-</Button>
+                            </div>
+                            <div className="button-row">
+                                <ClearButton handleClear={() => this.setState({ input: "" })}>
+                                    Clear
+                                </ClearButton>
+                            </div>
                         </div>
                     </div>
+
                     <Footer />
                 </div>
             </div>
-            );
+        );
     }
 
 

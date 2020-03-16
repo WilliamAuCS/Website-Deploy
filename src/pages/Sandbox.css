@@ -2,50 +2,26 @@
     text-align: center;
     padding: 10px;
     display: block;
-    border: 2px solid yellow;
     color: white;
 }
 .calculator{
-    border: 2px solid red;
-    position: absolute;
-    float: left;
-    width: 300px;
-    overflow: hidden;
     display: block;
-    margin-left: 25px;
-    background-color: white;
-    padding-bottom: 50px;
+    justify-content: left;
+    align-items: top;
+    float: left;
+    height: 100vh;
+    width: auto;
 }
-.calculator-screen{
-    background-color: white;
-    width: 300px;
-    height: 70px;
-    border: 2px solid grey;
+.calc-header{
+    text-align: center;
+    color: white;
 }
-.calculator-keys{
-    background-color: white;
-    background-color: white;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-    padding: 20px;
+.calc-wrapper{
+    width: 400px;
+    height: 0px;
+    padding: 25px;
 }
-.operator{
-    color: blue;
-}
-button{
-    width: 50px;
-    height: 50px;
-    border: 1px solid grey;
-    border-radius: 3px;
-}
-.equal-sign{
-    grid-area: 2 / 4 / 6 / 5;
-    height: 100%;
-}
-.equal-sign:hover{
-    background-color: grey;
-}
-.all-clear{
-    background-color: red;
+.button-row{
+    display: flex;
+    width: 100%;
 }
