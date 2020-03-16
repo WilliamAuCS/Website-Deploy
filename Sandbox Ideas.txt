@@ -1,4 +1,5 @@
 1. Calculator using JavaScript, HTML/CSS
+	*DONE*
 
 2. Simple "compiler". Text line input with language choice dropdown. 
    Inputs line of code, outputs if it is valid or has syntax errors. 
